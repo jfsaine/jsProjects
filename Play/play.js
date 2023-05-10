@@ -1,9 +1,15 @@
-function endsWithX(string) {
-    console.log(string.lenght);
-    return lenght;
 
-    
-    const lastCharacter = [string.length - 1];
+var array = [1, 2, 2, 3];
+
+function unique(array) {
+    let newArray = [];
+    for (i = 0; i < array.length; i++){
+        const element = array[i];
+        if (!newArray.includes(element)){
+            newArray.push(element);
+        }
+    }
+    return newArray;
 }
 
-module.exports = endsWithX;
+console.log(unique(array));
