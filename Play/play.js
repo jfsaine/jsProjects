@@ -13,3 +13,4 @@ function unique(array) {
 }
 
 console.log(unique(array));
+console.log("Hello World");
