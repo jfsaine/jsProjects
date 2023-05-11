@@ -14,3 +14,8 @@ function unique(array) {
 
 console.log(unique(array));
 console.log("Hello World");
+
+x = 4;
+y = 5; 
+
+console.log(x + y);
