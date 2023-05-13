@@ -1,24 +1,34 @@
+// var array = [1, 2, 2, 3];
 
-var array = [1, 2, 2, 3];
+// function unique(array) {
+//     let newArray = [];
+//     for (i = 0; i < array.length; i++){
+//         const element = array[i];
+//         if (!newArray.includes(element)){
+//             newArray.push(element);
+//         }
+//     }
+//     return newArray;
+// }
 
-function unique(array) {
-    let newArray = [];
-    for (i = 0; i < array.length; i++){
-        const element = array[i];
-        if (!newArray.includes(element)){
-            newArray.push(element);
-        }
-    }
-    return newArray;
-}
+// console.log(unique(array));
+// console.log("Hello World");
 
-console.log(unique(array));
-console.log("Hello World");
+// x = 4;
+// y = 5; 
 
-x = 4;
-y = 5; 
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
+unction myFunction() {
+    // Get the value of the input element.
+    var value = prompt("Enter some text: ");
+  
+    // Display the value of the input element back to the user.
+    console.log("You entered: " + value);
+  }
+  
+  myFunction();
+
