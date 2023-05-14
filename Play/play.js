@@ -22,13 +22,16 @@
 // console.log(x * y);
 // console.log(x / y);
 
-unction myFunction() {
-    // Get the value of the input element.
-    var value = prompt("Enter some text: ");
-  
-    // Display the value of the input element back to the user.
-    console.log("You entered: " + value);
-  }
-  
-  myFunction();
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Enter some text: ', (value) => {
+  console.log(`You entered: ${value}`);
+  rl.close();
+});
+
 
