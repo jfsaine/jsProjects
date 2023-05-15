@@ -34,4 +34,6 @@ rl.question('Enter some text: ', (value) => {
   rl.close();
 });
 
+console.log("Hello World");
+
 
