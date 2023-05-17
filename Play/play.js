@@ -35,7 +35,8 @@ rl.question('Enter some text: ', (value) => {
 });
 
 console.log("Hello World");
-console.log(3 + 4);
+console.log("sum is: ", 3 + 4);
+console.log("product is: ", 4 * 8);
 
 
 
