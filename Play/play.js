@@ -40,7 +40,7 @@ const math = {
   y: 3,
 }
 
-console.log("sum is: ", math.x + math.y);
-console.log("product is: ", math.x * math.y);
+console.log("Sum is: ", math.x + math.y);
+console.log("Product is: ", math.x * math.y);
 
 
