@@ -42,5 +42,6 @@ const math = {
 
 console.log("Sum is: ", math.x + math.y);
 console.log("Product is: ", math.x * math.y);
+console.log("Happy Holidays");
 
 
