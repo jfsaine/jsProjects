@@ -35,13 +35,52 @@
 // });
 
 
-const math = {
-  x: 4,
-  y: 3,
+// const math = {
+//   x: 4,
+//   y: 3,
+// }
+
+// console.log("Sum is: ", math.x + math.y);
+// console.log("Product is: ", math.x * math.y);
+// console.log("Happy Holidays");
+
+
+class Pet {
+  constructor(name) {
+      this.name = name;
+      this.hunger = 0;
+      this.tiredness = 0;
+  }
+
+  feed() {
+      this.hunger -= 10;
+      console.log(`${this.name} has been fed.`);
+  }
+
+  sleep() {
+      this.tiredness -= 10;
+      console.log(`${this.name} has taken a nap.`);
+  }
+
+  play() {
+      this.hunger += 5;
+      this.tiredness += 5;
+      console.log(`${this.name} has played.`);
+  }
+
+  checkStatus() {
+      console.log(`${this.name}'s Hunger level is: ${this.hunger}`);
+      console.log(`${this.name}'s Tiredness level is: ${this.tiredness}`);
+  }
 }
 
-console.log("Sum is: ", math.x + math.y);
-console.log("Product is: ", math.x * math.y);
-console.log("Happy Holidays");
+let myPet = new Pet("Fluffy");
+
+myPet.play();
+myPet.checkStatus();
+myPet.feed();
+myPet.checkStatus();
+myPet.sleep();
+myPet.checkStatus();
 
 
