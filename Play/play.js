@@ -45,42 +45,29 @@
 // console.log("Happy Holidays");
 
 
-class Pet {
-  constructor(name) {
-      this.name = name;
-      this.hunger = 0;
-      this.tiredness = 0;
-  }
+// const team1 = { name: "Team 1" };
+// const team2 = { name: "Team 2" };
+// const team3 = { name: "Team 3" };
 
-  feed() {
-      this.hunger -= 10;
-      console.log(`${this.name} has been fed.`);
-  }
+// const teams = [team1, team2, team3];
 
-  sleep() {
-      this.tiredness -= 10;
-      console.log(`${this.name} has taken a nap.`);
-  }
+// for (let i = 0; i < teams.length; i++) {
+//     console.log(teams[i].name); 
+// }
 
-  play() {
-      this.hunger += 5;
-      this.tiredness += 5;
-      console.log(`${this.name} has played.`);
-  }
 
-  checkStatus() {
-      console.log(`${this.name}'s Hunger level is: ${this.hunger}`);
-      console.log(`${this.name}'s Tiredness level is: ${this.tiredness}`);
-  }
+
+
+// const object = {
+//     key1: 'value1',
+//     key2: 'value2',
+//     key3: 'value3',
+//     key4: 'value4',
+//   };
+  
+//   console.log(Object.keys(object).length); 
+  
+const object = { a: 1, b: 2, c: 3 } 
+for(let key in object) {
+    console.log(key);
 }
-
-let myPet = new Pet("Fluffy");
-
-myPet.play();
-myPet.checkStatus();
-myPet.feed();
-myPet.checkStatus();
-myPet.sleep();
-myPet.checkStatus();
-
-
