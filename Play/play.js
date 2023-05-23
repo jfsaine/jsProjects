@@ -67,7 +67,10 @@
   
 //   console.log(Object.keys(object).length); 
   
+
 const object = { a: 1, b: 2, c: 3 } 
 for(let key in object) {
     console.log(key);
 }
+
+console.log("Happy");
