@@ -68,9 +68,27 @@
 //   console.log(Object.keys(object).length); 
   
 
-const object = { a: 1, b: 2, c: 3 } 
-for(let key in object) {
-    console.log(key);
+// const object = { a: 1, b: 2, c: 3 } 
+// for(let key in object) {
+//     console.log(key);
+// }
+
+// console.log("Happy");
+
+let elements = ['a', 'a', 'b', 'c', 'd', 'd', 'd', 'd', 'd', 'r'];
+
+function countElements(elements) {
+    let counts = {};
+    for (let i = 0; i < elements.length; i++) {
+        let element = elements[i];
+        if (counts[element]) {
+            counts[element]++;
+        } else {
+            counts[element] = 1;
+        }
+    }
+    console.log(counts);
+    return counts;
 }
 
-console.log("Happy");
+countElements(elements);  
