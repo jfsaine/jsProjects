@@ -75,20 +75,28 @@
 
 // console.log("Happy");
 
-let elements = ['a', 'a', 'b', 'c', 'd', 'd', 'd', 'd', 'd', 'r'];
+// let elements = ['a', 'a', 'b', 'c', 'd', 'd', 'd', 'd', 'd', 'r'];
 
-function countElements(elements) {
-    let counts = {};
-    for (let i = 0; i < elements.length; i++) {
-        let element = elements[i];
-        if (counts[element]) {
-            counts[element]++;
-        } else {
-            counts[element] = 1;
-        }
-    }
-    console.log(counts);
-    return counts;
-}
+// function countElements(elements) {
+//     let counts = {};
+//     for (let i = 0; i < elements.length; i++) {
+//         let element = elements[i];
+//         if (counts[element]) {
+//             counts[element]++;
+//         } else {
+//             counts[element] = 1;
+//         }
+//     }
+//     console.log(counts);
+//     return counts;
+// }
 
-countElements(elements);  
+// countElements(elements);  
+
+let user = {
+    name: 'John',
+    address: null
+  };
+  
+let street = user && user.address && user.address.street;
+console.log(street);
