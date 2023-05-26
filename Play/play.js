@@ -93,10 +93,13 @@
 
 // countElements(elements);  
 
-let user = {
-    name: 'John',
-    address: null
-  };
+// let user = {
+//     name: 'John',
+//     address: null
+//   };
   
-let street = user && user.address && user.address.street;
-console.log(street);
+// let street = user && user.address && user.address.street;
+// console.log(street);
+
+console.log(2 + "2");
+console.log(2 + 2);
