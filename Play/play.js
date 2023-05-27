@@ -101,5 +101,14 @@
 // let street = user && user.address && user.address.street;
 // console.log(street);
 
-console.log(2 + "2");
-console.log(2 + 2);
+// console.log(2 + "2");
+// console.log(2 + 2);
+
+let x = 5;
+let y = 4; 
+
+console.log(x + y);
+
+let array = [4, 44, 444];
+
+console.log(array[0] + array[1]);
