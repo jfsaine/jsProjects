@@ -107,3 +107,4 @@
 let array = [4, 44, 444];
 
 console.log(array[0] + array[1]);
+console.log(array[1] + array[2]);
