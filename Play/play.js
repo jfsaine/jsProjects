@@ -113,3 +113,4 @@ array[1] = 21;
 
 console.log(array[0], array[1], array[2]);
 console.log("The math is as follows:", array[0] * array[1]);
+console.log("Hello World");
