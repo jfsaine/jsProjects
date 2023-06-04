@@ -120,3 +120,4 @@ let thiss = [1, 2, 3, 4];
 thiss[0] = 22;
 
 console.log(thiss[0]);
+console.log("Happy");
