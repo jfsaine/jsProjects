@@ -115,10 +115,7 @@
 // console.log("The math is as follows:", array[0] * array[1]);
 // console.log("Hello World");
 
-let thiss = [1, 2, 3, 4];
+let nestedArray = [1, 2, [3, 4, [5, 6]]];
+let flattenedArray = nestedArray.flat(2); 
 
-thiss[0] = 22;
-
-console.log(thiss[0]);
-console.log("Happy");
-console.log("Happy happy");
+console.log(flattenedArray)
