@@ -120,3 +120,5 @@ let flattenedArray = nestedArray.flat(2);
 
 console.log(nestedArray)
 console.log(flattenedArray)
+console.log(nestedArray[0] + nestedArray[5])
+console.log(flattenedArray[0] + flattenedArray[5])
