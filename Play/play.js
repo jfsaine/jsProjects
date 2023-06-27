@@ -115,13 +115,27 @@
 // console.log("The math is as follows:", array[0] * array[1]);
 // console.log("Hello World");
 
-let nestedArray = [1, 2, [3, 4, [5, 6]]];
-let flattenedArray = nestedArray.flat(2); 
+// let nestedArray = [1, 2, [3, 4, [5, 6]]];
+// let flattenedArray = nestedArray.flat(2); 
 
-console.log(nestedArray)
-console.log(flattenedArray)
-console.log(nestedArray[0] + nestedArray[5])
-console.log(flattenedArray[0] + flattenedArray[5])
-console.log(nestedArray)
-console.log(flattenedArray)
-console.log(Happy Times)
+// console.log(nestedArray)
+// console.log(flattenedArray)
+// console.log(nestedArray[0] + nestedArray[5])
+// console.log(flattenedArray[0] + flattenedArray[5])
+// console.log(nestedArray)
+// console.log(flattenedArray)
+// console.log(Happy Times)
+
+
+firstName = "John"
+lastName = "Doe"
+age = 35
+
+console.log("Name: ", firstName, "Last Name: ", lastName, "Age: ", age)
+
+console.log("Hello World")
+console.log("Hola World")
+
+
+
+
