@@ -127,14 +127,22 @@
 // console.log(Happy Times)
 
 
-firstName = "John"
-lastName = "Doe"
-age = 35
+// firstName = "John"
+// lastName = "Doe"
+// age = 35
 
-console.log("Name: ", firstName, "Last Name: ", lastName, "Age: ", age)
+// console.log("Name: ", firstName, "Last Name: ", lastName, "Age: ", age)
 
-console.log("Hello World")
-console.log("Hola World")
+// console.log("Hello World")
+// console.log("Hola World")
+// console.log("Test")
+
+name = 'John';
+nameLength = name.length; 
+
+console.log(name.length);
+
+
 
 
 
