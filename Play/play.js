@@ -137,10 +137,18 @@
 // console.log("Hola World")
 // console.log("Test")
 
-name = 'John';
-nameLength = name.length; 
+// name = 'John';
+// nameLength = name.length; 
 
-console.log(name.length);
+// console.log(name.length);
+
+function ourFunction(a, b) {
+    console.log(a - b);
+}
+
+ourFunction(5, 12);
+
+console.log("Happy")
 
 
 
