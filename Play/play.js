@@ -149,6 +149,7 @@ function ourFunction(a, b) {
 ourFunction(5, 12);
 
 console.log("Happy")
+consale.log("Happy Happy")
 
 
 
