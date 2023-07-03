@@ -142,17 +142,35 @@
 
 // console.log(name.length);
 
-function ourFunction(a, b) {
-    console.log(a - b);
+// function ourFunction(a, b) {
+//     console.log(a - b);
+// }
+
+// ourFunction(5, 12);
+
+//// Using \ and \n
+// console.log("First line\tSecond line\nThird Line\tFourth line\nFifth line\tSixth line")
+
+//// Concatenating strings
+// let str = "I come first. " + "I come second.";
+// console.log(str)
+
+//// Doing the same with + operatorl
+// let str = "I come first. "
+// str += "I come second."
+// console.log(str)
+
+// let myStr = "Jello World"
+// myStr = "Hello World";
+// console.log(myStr)
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    let result = "";
+    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + "."
+    return result;
 }
 
-ourFunction(5, 12);
-
-console.log("Happy")
-consale.log("Happy Happy")
-
-
-
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
 
 
 
