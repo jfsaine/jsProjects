@@ -164,13 +164,38 @@
 // myStr = "Hello World";
 // console.log(myStr)
 
-function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-    let result = "";
-    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + "."
-    return result;
+// function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+//     let result = "";
+//     result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + "."
+//     return result;
+// }
+
+// console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+// array = [1, 2 , 3]
+// array.push(["happy", "joy"])
+
+// console.log(array)
+
+var myGlobal = 10;
+
+function fun1() {
+    oopsGlobal = 5;
 }
 
-console.log(wordBlanks("dog", "big", "ran", "quickly"));
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += "oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
+
+fun1();
+fun2();
 
 
 
