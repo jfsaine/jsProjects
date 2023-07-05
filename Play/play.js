@@ -177,25 +177,50 @@
 
 // console.log(array)
 
-var myGlobal = 10;
+// var myGlobal = 10;
 
-function fun1() {
-    oopsGlobal = 5;
+// function fun1() {
+//     oopsGlobal = 5;
+// }
+
+// function fun2() {
+//     var output = "";
+//     if (typeof myGlobal != "undefined") {
+//         output += "myGlobal: " + myGlobal;
+//     }
+//     if (typeof oopsGlobal != "undefined") {
+//         output += "oopsGlobal: " + oopsGlobal;
+//     }
+//     console.log(output);
+// }
+
+// fun1();
+// fun2();
+
+
+// function myLocalScope() {
+//     let myData = 5;
+//     console.log(myData)
+// }
+
+// myLocalScope();
+
+// function minusSeven(num) {
+//     return num - 7;
+// }
+
+// console.log(minusSeven(10));
+
+function nextInLine(arr, item) {
+    arr.push(item);
+    return arr.shift();
 }
 
-function fun2() {
-    var output = "";
-    if (typeof myGlobal != "undefined") {
-        output += "myGlobal: " + myGlobal;
-    }
-    if (typeof oopsGlobal != "undefined") {
-        output += "oopsGlobal: " + oopsGlobal;
-    }
-    console.log(output);
-}
+let testArr = [1,2,3,4,5];
 
-fun1();
-fun2();
+console.log("Before: " + JSON.stringify(testArr));
 
+nextInLine(testArr, 6);
+console.log("After: " + JSON.stringify(testArr));
 
-
+// Break 1:08:42
