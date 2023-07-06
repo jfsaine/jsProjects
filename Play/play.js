@@ -211,16 +211,31 @@
 
 // console.log(minusSeven(10));
 
-function nextInLine(arr, item) {
-    arr.push(item);
-    return arr.shift();
+// function nextInLine(arr, item) {
+//     arr.push(item);
+//     return arr.shift();
+// }
+
+// let testArr = [1,2,3,4,5];
+
+// console.log("Before: " + JSON.stringify(testArr));
+
+// nextInLine(testArr, 6);
+// console.log("After: " + JSON.stringify(testArr));
+
+function determineTrueOrFalse(trueOrFalse) {
+    if (trueOrFalse == 1) {
+        console.log("Yes it is true");
+    }
+    else if (trueOrFalse == 0) {
+        console.log("No it is not true");
+    }
+    else {
+        console.log("Unclear");
+    }
 }
 
-let testArr = [1,2,3,4,5];
+let result = true;
+determineTrueOrFalse(result);
 
-console.log("Before: " + JSON.stringify(testArr));
-
-nextInLine(testArr, 6);
-console.log("After: " + JSON.stringify(testArr));
-
-// Break 1:08:42
+// Timestapm 1:09:39
