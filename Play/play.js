@@ -223,19 +223,59 @@
 // nextInLine(testArr, 6);
 // console.log("After: " + JSON.stringify(testArr));
 
-function determineTrueOrFalse(trueOrFalse) {
-    if (trueOrFalse == 1) {
-        console.log("Yes it is true");
+// function determineTrueOrFalse(trueOrFalse) {
+//     if (trueOrFalse == 1) {
+//         console.log("Yes it is true");
+//     }
+//     else if (trueOrFalse == 0) {
+//         console.log("No it is not true");
+//     }
+//     else {
+//         console.log("Unclear");
+//     }
+// }
+
+// let result = true;
+// determineTrueOrFalse(result);
+
+
+// function testEqual(val) {
+//     if (val == 12) {
+//         return "Equal";
+//     }
+//     return "Not Equal";
+// }
+
+// console.log(testEqual(10));
+
+// function testEqual(a, b) {
+//     if (a === b) {
+//         return "Equal";
+//     }
+//     return "Not Equal";
+// }
+
+// console.log(testEqual(10, "10"));
+
+// function testEqual(a, b) {
+//     if (a !== b) {
+//         return "Not Equal";
+//     }
+//     return "Equal";
+// }
+
+// console.log(testEqual(10, "10"));
+
+function testGreaterThan(val) {
+    if (val > 100) {
+        return "Over 100";
     }
-    else if (trueOrFalse == 0) {
-        console.log("No it is not true");
+    if (val > 10) {
+        return "Over 10";
     }
-    else {
-        console.log("Unclear");
-    }
+    return "10 or Under";
 }
 
-let result = true;
-determineTrueOrFalse(result);
+console.log(testGreaterThan(10));
 
-// Timestapm 1:09:39
+// Timestamp 1:17:42
