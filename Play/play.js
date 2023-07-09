@@ -266,16 +266,28 @@
 
 // console.log(testEqual(10, "10"));
 
-function testGreaterThan(val) {
-    if (val > 100) {
-        return "Over 100";
+// function testGreaterThan(val) {
+//     if (val > 100) {
+//         return "Over 100";
+//     }
+//     if (val > 10) {
+//         return "Over 10";
+//     }
+//     return "10 or Under";
+// }
+
+// console.log(testGreaterThan(10));
+
+function testLogicalAnd(val) {
+
+if (val <= 50 && val >= 25) {
+    if (val >= 25) {
+        return "Yes";
     }
-    if (val > 10) {
-        return "Over 10";
-    }
-    return "10 or Under";
+}
+    return "No";
 }
 
-console.log(testGreaterThan(10));
+console.log(testLogicalAnd(10));
 
 // Timestamp 1:17:42
