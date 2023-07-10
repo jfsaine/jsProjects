@@ -278,16 +278,47 @@
 
 // console.log(testGreaterThan(10));
 
-function testLogicalAnd(val) {
+// function testLogicalAnd(val) {
 
-if (val <= 50 && val >= 25) {
-    if (val >= 25) {
-        return "Yes";
+// if (val <= 50 && val >= 25) {
+//     if (val >= 25) {
+//         return "Yes";
+//     }
+// }
+//     return "No";
+// }
+
+// console.log(testLogicalAnd(10));
+
+// function testLogicalOr(val){
+//     if (val < 10 || val > 20){
+//         return "Outside";
+
+//     }
+//     return "Inside";
+// }
+
+// console.log(testLogicalOr(15));
+
+function caseSwitch(val) {
+    let answer = "";
+    switch(val) {
+        case 1:
+            answer = "alpha";
+            break;
+        case 2:
+            answer = "beta";
+            break;
+        case 3:
+            answer = "gamma";
+            break;
+        case 4:
+            answer = "delta";
+            break;
     }
-}
-    return "No";
+    return answer;
 }
 
-console.log(testLogicalAnd(10));
+console.log(caseSwitch(4));
 
-// Timestamp 1:17:42
+// Timestamp 1:34:34
