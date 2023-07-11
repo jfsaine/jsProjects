@@ -300,25 +300,52 @@
 
 // console.log(testLogicalOr(15));
 
-function caseSwitch(val) {
-    let answer = "";
-    switch(val) {
-        case 1:
-            answer = "alpha";
-            break;
-        case 2:
-            answer = "beta";
-            break;
-        case 3:
-            answer = "gamma";
-            break;
-        case 4:
-            answer = "delta";
-            break;
-    }
-    return answer;
+// function caseSwitch(val) {
+//     let answer = "";
+//     switch(val) {
+//         case 1:
+//             answer = "alpha";
+//             break;
+//         case 2:
+//             answer = "beta";
+//             break;
+//         case 3:
+//             answer = "gamma";
+//             break;
+//         case 4:
+//             answer = "delta";
+//             break;
+//         default:
+//             answer = "Error Statement"
+//             break;
+//     }
+//     return answer;
+// }
+
+// console.log(caseSwitch(5));
+
+// function caseSwitch(val) {
+//     let answer = "";
+//     switch(val) {
+//         case 1:
+//         case 2:
+//         case 3:
+//         case 4:
+//             answer = "Kumbaya";
+//         case 5:
+//         case 6:
+//         case 7:
+//         case 8:
+//             answer = "High Altitude Kumbaya";
+//     }
+//     return answer;
+// }
+
+// console.log(caseSwitch(5));
+
+function logMessage(message) {
+    return (message);
 }
+console.log(logMessage("Hello, world!"));
 
-console.log(caseSwitch(4));
-
-// Timestamp 1:34:34
+// Timestamp 1:39:48
