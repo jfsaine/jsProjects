@@ -343,9 +343,15 @@
 
 // console.log(caseSwitch(5));
 
-function logMessage(message) {
-    return (message);
-}
-console.log(logMessage("Hello, world!"));
+// function logMessage(message) {
+//     return (message);
+// }
+// console.log(logMessage("Hello, world!"));
+
+// function isLess(a, b) {
+//     return (a < b) 
+// }  
+
+// console.log(isLess(10, 15));
 
 // Timestamp 1:39:48
