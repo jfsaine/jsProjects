@@ -354,4 +354,9 @@
 
 // console.log(isLess(10, 15));
 
-// Timestamp 1:39:48
+let a = 10;
+let b = 10;
+
+console.log(a * b);
+
+// Timestamp 1:43:36
