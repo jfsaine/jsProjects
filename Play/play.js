@@ -354,9 +354,23 @@
 
 // console.log(isLess(10, 15));
 
-let a = 10;
-let b = 10;
+// let a = 10;
+// let b = 10;
 
-console.log(a * b);
+// console.log(a * b);
+
+function fibonacci(num) {
+    var sequence = [0, 1];
+
+    for (var i = 2; i < num; i++) {
+        sequence[i] = sequence[i - 1] + sequence[i - 2];
+    }
+
+    return sequence;
+}
+
+console.log(fibonacci(10));  // Prints: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+
 
 // Timestamp 1:43:36
