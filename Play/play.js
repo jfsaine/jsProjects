@@ -370,7 +370,7 @@ function fibonacci(num) {
 }
 
 console.log(fibonacci(10));  // Prints: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-
+console.log(happy times)
 
 
 // Timestamp 1:43:36
