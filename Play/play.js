@@ -359,18 +359,27 @@
 
 // console.log(a * b);
 
-function fibonacci(num) {
-    var sequence = [0, 1];
+// function fibonacci(num) {
+//     var sequence = [0, 1];
 
-    for (var i = 2; i < num; i++) {
-        sequence[i] = sequence[i - 1] + sequence[i - 2];
-    }
+//     for (var i = 2; i < num; i++) {
+//         sequence[i] = sequence[i - 1] + sequence[i - 2];
+//     }
 
-    return sequence;
+//     return sequence;
+// }
+
+// console.log(fibonacci(10));  // Prints: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+// console.log(happy times)
+
+
+
+function addTwoNumbers(num1, num2) {
+    return num1 + num2;
 }
 
-console.log(fibonacci(10));  // Prints: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-console.log(happy times)
+var result = addTwoNumbers(3, 7);
+console.log("The sum is: " + result);
 
 
 // Timestamp 1:43:36
