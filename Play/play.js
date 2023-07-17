@@ -374,12 +374,21 @@
 
 
 
-function addTwoNumbers(num1, num2) {
-    return num1 + num2;
+// function addTwoNumbers(num1, num2) {
+//     return num1 + num2;
+// }
+
+// var result = addTwoNumbers(3, 7);
+// console.log("The sum is: " + result);
+
+// Create an array of strings
+let fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
+
+// Iterate over the array and print each item
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
 }
 
-var result = addTwoNumbers(3, 7);
-console.log("The sum is: " + result);
 
 
 // Timestamp 1:43:36
