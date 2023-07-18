@@ -389,6 +389,8 @@ for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
 
+let a = 10;
+
 
 
 // Timestamp 1:43:36
