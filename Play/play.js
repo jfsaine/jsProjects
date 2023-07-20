@@ -381,19 +381,26 @@
 // var result = addTwoNumbers(3, 7);
 // console.log("The sum is: " + result);
 
-// Create an array of strings
-let fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
+// // Create an array of strings
+// let fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
 
-// Iterate over the array and print each item
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i]);
+// // Iterate over the array and print each item
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+// let a = 10;
+// let b = 10;
+
+// console.log(a * b);
+
+// Define a function to greet a user
+function greet(name) {
+    console.log("Hello, " + name + "!");
 }
 
-let a = 10;
-let b = 10;
-
-console.log(a * b);
-
+// Call the function with a name
+greet("Alice");
 
 
 // Timestamp 1:43:36
