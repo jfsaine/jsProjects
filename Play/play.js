@@ -401,6 +401,10 @@ function greet(name) {
 
 // Call the function with a name
 greet("Alice");
+greet("Bob");
+greet("Eve, please stop spying. No one appreciates the nosy.");
+
+
 
 
 // Timestamp 1:43:36
