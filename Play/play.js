@@ -394,16 +394,24 @@
 
 // console.log(a * b);
 
-// Define a function to greet a user
-function greet(name) {
-    console.log("Hello, " + name + "!");
+// // Define a function to greet a user
+// function greet(name) {
+//     console.log("Hello, " + name + "!");
+// }
+
+// // Call the function with a name
+// greet("Alice");
+// greet("Bob");
+// greet("Eve, please stop spying. No one appreciates the nosy.");
+
+// Initialize counter variable
+var counter = 1;
+
+// Use a while loop to print numbers from 1 to 10
+while(counter <= 10) {
+  console.log(counter);
+  counter++;
 }
-
-// Call the function with a name
-greet("Alice");
-greet("Bob");
-greet("Eve, please stop spying. No one appreciates the nosy.");
-
 
 
 
