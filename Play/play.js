@@ -413,6 +413,7 @@ while(counter <= 10) {
   counter++;
 }
 
+console.log("Happy day")
 
 
 // Timestamp 1:43:36
