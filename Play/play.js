@@ -404,16 +404,25 @@
 // greet("Bob");
 // greet("Eve, please stop spying. No one appreciates the nosy.");
 
-// Initialize counter variable
-var counter = 1;
+// // Initialize counter variable
+// var counter = 1;
 
-// Use a while loop to print numbers from 1 to 10
-while(counter <= 10) {
-  console.log(counter);
-  counter++;
+// // Use a while loop to print numbers from 1 to 10
+// while(counter <= 10) {
+//   console.log(counter);
+//   counter++;
+// }
+
+// console.log("Happy day")
+
+function abTest(a,b) {
+  if (a < 0 || b <0){
+    return undefined;
+  }
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 
-console.log("Happy day")
+console.log(abTest(2, -2));
 
-
-// Timestamp 1:43:36
+// Timestamp 1:43:48
