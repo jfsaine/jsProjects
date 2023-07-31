@@ -415,15 +415,47 @@
 
 // console.log("Happy day")
 
-function abTest(a,b) {
-  if (a < 0 || b <0){
-    return undefined;
+// function abTest(a,b) {
+//   if (a < 0 || b <0){
+//     return undefined;
+//   }
+
+//   return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+// }
+
+// console.log(abTest(2, -2));
+// console.log("Happy Times")
+
+let count = 0;
+
+function cc(card) {
+  switch(card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count--;
+      break;
   }
 
-  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+  let holdbet = 'Hold';
+  if (count > 0) {
+    holdbet = 'Bet';
+  }
+  
+  return count + " " + holdbet;
 }
 
-console.log(abTest(2, -2));
-console.log("Happy Times")
+cc(2); cc('K'); cc(10); cc('K'); cc('A')
+console.log(cc())
+
 
 // Timestamp 1:43:48
