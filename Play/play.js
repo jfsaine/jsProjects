@@ -426,36 +426,58 @@
 // console.log(abTest(2, -2));
 // console.log("Happy Times")
 
-let count = 0;
+// let count = 0;
 
-function cc(card) {
-  switch(card){
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-      count++;
-      break;
-    case 10:
-    case "J":
-    case "Q":
-    case "K":
-    case "A":
-      count--;
-      break;
-  }
+// function cc(card) {
+//   switch(card){
+//     case 2:
+//     case 3:
+//     case 4:
+//     case 5:
+//     case 6:
+//       count++;
+//       break;
+//     case 10:
+//     case "J":
+//     case "Q":
+//     case "K":
+//     case "A":
+//       count--;
+//       break;
+//   }
 
-  let holdbet = 'Hold';
-  if (count > 0) {
-    holdbet = 'Bet';
-  }
+//   let holdbet = 'Hold';
+//   if (count > 0) {
+//     holdbet = 'Bet';
+//   }
   
-  return count + " " + holdbet;
+//   return count + " " + holdbet;
+// }
+
+// cc(2); cc('K'); cc(10); cc('K'); cc('A')
+// console.log(cc())
+
+// let ourDog = {
+//   "name": "Camper",
+//   "legs": 4,
+//   "tails": 1,
+//   "friends": ["everything!"]
+// };
+
+let myDog = {
+  name: "Quincy",
+  legs: 3,
+  tails: 1,
+  friends: []
 }
 
-cc(2); cc('K'); cc(10); cc('K'); cc('A')
-console.log(cc())
+myDog.name = "Bungee"
+myDog["bark"] = "Woof"
 
+console.log(myDog.name);
+console.log(myDog.bark);
+
+delete myDog.bark;
+console.log(myDog.bark);
 
 // Timestamp 1:49:11
