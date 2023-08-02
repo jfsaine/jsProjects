@@ -464,20 +464,43 @@
 //   "friends": ["everything!"]
 // };
 
-let myDog = {
-  name: "Quincy",
-  legs: 3,
-  tails: 1,
-  friends: []
+// let myDog = {
+//   name: "Quincy",
+//   legs: 3,
+//   tails: 1,
+//   friends: []
+// }
+
+// myDog.name = "Bungee"
+// myDog["bark"] = "Woof"
+
+// console.log(myDog.name);
+// console.log(myDog.bark);
+
+// delete myDog.bark;
+// console.log(myDog.bark);
+
+class Pet {
+  constructor(name, age, species) {
+    this.name = name;
+    this.age = age;
+    this.species = species;
+  }
+
+  eat() {
+    console.log(this.name + ' is eating.');
+  }
+
+  sleep() {
+    console.log(this.name + ' is sleeping.');
+  }
 }
 
-myDog.name = "Bungee"
-myDog["bark"] = "Woof"
+let dog = new Pet('Buddy', 5, 'dog');
+let cat = new Pet('Whiskers', 3, 'cat');
 
-console.log(myDog.name);
-console.log(myDog.bark);
+dog.eat(); // Outputs: 'Buddy is eating.'
+cat.sleep(); // Outputs: 'Whiskers is sleeping.'
 
-delete myDog.bark;
-console.log(myDog.bark);
 
-// Timestamp 1:49:11
+// Timestamp 2:01:02
