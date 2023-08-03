@@ -480,27 +480,43 @@
 // delete myDog.bark;
 // console.log(myDog.bark);
 
-class Pet {
-  constructor(name, age, species) {
-    this.name = name;
-    this.age = age;
-    this.species = species;
+// class Pet {
+//   constructor(name, age, species) {
+//     this.name = name;
+//     this.age = age;
+//     this.species = species;
+//   }
+
+//   eat() {
+//     console.log(this.name + ' is eating.');
+//   }
+
+//   sleep() {
+//     console.log(this.name + ' is sleeping.');
+//   }
+// }
+
+// let dog = new Pet('Buddy', 5, 'dog');
+// let cat = new Pet('Whiskers', 3, 'cat');
+
+// dog.eat(); // Outputs: 'Buddy is eating.'
+// cat.sleep(); // Outputs: 'Whiskers is sleeping.'
+
+
+let myStorage = {
+  Car: {
+    Inside: {
+      gloveBox: "maps",
+      passengerSeat: "crumbs"
+    },
+    Outside: {
+      Trunk: "jack"
+    }
   }
+};
 
-  eat() {
-    console.log(this.name + ' is eating.');
-  }
-
-  sleep() {
-    console.log(this.name + ' is sleeping.');
-  }
-}
-
-let dog = new Pet('Buddy', 5, 'dog');
-let cat = new Pet('Whiskers', 3, 'cat');
-
-dog.eat(); // Outputs: 'Buddy is eating.'
-cat.sleep(); // Outputs: 'Whiskers is sleeping.'
+let gloveBoxContents = myStorage.Car.Inside.gloveBox;
+console.log(gloveBoxContents);
 
 
 // Timestamp 2:01:02
