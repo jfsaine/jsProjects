@@ -535,5 +535,7 @@ let randomIndex = Math.floor(Math.random() * compliments.length);
 
 console.log(compliments[randomIndex]);
 
+console.log("Happy Review Day")
+
 
 // Timestamp 2:01:56
