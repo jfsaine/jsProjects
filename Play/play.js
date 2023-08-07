@@ -518,24 +518,43 @@
 // let gloveBoxContents = myStorage.Car.Inside.gloveBox;
 // console.log(gloveBoxContents);
 
-let compliments = [
-  "You're an awesome friend.",
-  "You're a gift to those around you.",
-  "You're a smart cookie.",
-  "You're amazing!",
-  "You're strong.",
-  "Your perspective is refreshing.",
-  "You're an excellent listener.",
-  "You're a ray of sunshine.",
-  "You're someone's reason to smile.",
-  "You're inspiring."
+// let compliments = [
+//   "You're an awesome friend.",
+//   "You're a gift to those around you.",
+//   "You're a smart cookie.",
+//   "You're amazing!",
+//   "You're strong.",
+//   "Your perspective is refreshing.",
+//   "You're an excellent listener.",
+//   "You're a ray of sunshine.",
+//   "You're someone's reason to smile.",
+//   "You're inspiring."
+// ];
+
+// let randomIndex = Math.floor(Math.random() * compliments.length);
+
+// console.log(compliments[randomIndex]);
+
+let myPlants = [
+  { 
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip", 
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
 ];
 
-let randomIndex = Math.floor(Math.random() * compliments.length);
+let secondTree = myPlants[1].list[1];
+console.log(secondTree);
 
-console.log(compliments[randomIndex]);
-
-console.log("Happy Review Day")
-
-
-// Timestamp 2:01:56
+// Timestamp 2:03:05
