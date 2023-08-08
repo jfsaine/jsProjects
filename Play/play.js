@@ -554,7 +554,7 @@ let myPlants = [
   }
 ];
 
-let secondTree = myPlants[1].list[1];
+let secondTree = myPlants[0].list[2];
 console.log(secondTree);
 
 // Timestamp 2:03:05
