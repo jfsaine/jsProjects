@@ -535,26 +535,35 @@
 
 // console.log(compliments[randomIndex]);
 
-let myPlants = [
-  { 
-    type: "flowers",
-    list: [
-      "rose",
-      "tulip", 
-      "dandelion"
-    ]
-  },
-  {
-    type: "trees",
-    list: [
-      "fir",
-      "pine",
-      "birch"
-    ]
-  }
-];
+// let myPlants = [
+//   { 
+//     type: "flowers",
+//     list: [
+//       "rose",
+//       "tulip", 
+//       "dandelion"
+//     ]
+//   },
+//   {
+//     type: "trees",
+//     list: [
+//       "fir",
+//       "pine",
+//       "birch"
+//     ]
+//   }
+// ];
 
-let secondTree = myPlants[0].list[2];
-console.log(secondTree);
+// let secondTree = myPlants[0].list[2];
+// console.log(secondTree);
+
+myArray = ['hello', 'to', 'the', 'world'];
+
+console.log(myArray);
+
+myArray.push('Bam')
+myArray.unshift('Hi')
+console.log(myArray);
+
 
 // Timestamp 2:03:05
