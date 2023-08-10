@@ -557,13 +557,21 @@
 // let secondTree = myPlants[0].list[2];
 // console.log(secondTree);
 
-myArray = ['hello', 'to', 'the', 'world'];
+// myArray = ['hello', 'to', 'the', 'world'];
 
-console.log(myArray);
+// console.log(myArray);
 
-myArray.push('Bam')
-myArray.unshift('Hi')
-console.log(myArray);
-
+// myArray.push('Bam')
+// myArray.unshift('Hi')
+// console.log(myArray);
 
 // Timestamp 2:03:05
+
+
+let text = "hello world";
+let encoder = new TextEncoder();  // This encoder defaults to UTF-8
+let uint8Array = encoder.encode(text);
+
+console.log(uint8Array);
+
+
