@@ -568,10 +568,17 @@
 // Timestamp 2:03:05
 
 
-let text = "hello world";
-let encoder = new TextEncoder();  // This encoder defaults to UTF-8
-let uint8Array = encoder.encode(text);
+// let text = "hello world";
+// let encoder = new TextEncoder();  // This encoder defaults to UTF-8
+// let uint8Array = encoder.encode(text);
 
-console.log(uint8Array);
+// console.log(uint8Array);
+
+
+let a = 4;
+++a; 
+a++;
+
+console.log(a);
 
 
