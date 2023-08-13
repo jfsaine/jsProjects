@@ -565,7 +565,7 @@
 // myArray.unshift('Hi')
 // console.log(myArray);
 
-// Timestamp 2:03:05
+// JSYT COURSE: Timestamp 2:03:05
 
 
 // let text = "hello world";
@@ -575,10 +575,16 @@
 // console.log(uint8Array);
 
 
-let a = 4;
-++a; 
-a++;
+// let a = 4;
+// ++a; 
+// a++;
 
+// console.log(a);
+
+let a = 1 + 2 * 3;
+let b = (1 + 2) * 3; 
 console.log(a);
+console.log(b);
+
 
 
