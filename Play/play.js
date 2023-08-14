@@ -581,10 +581,33 @@
 
 // console.log(a);
 
-let a = 1 + 2 * 3;
-let b = (1 + 2) * 3; 
-console.log(a);
-console.log(b);
+// let a = 1 + 2 * 3;
+// let b = (1 + 2) * 3; 
+// console.log(a);
+// console.log(b);
+
+// let a = [4, 5, 7]
+// console.log(a[0])
+// console.log(a)
+
+// let counter = 0;
+// function timeout() {
+//     setTimeout(function () {
+//         console.log('hi ' + counter++);
+//         timeout()
+//     }, 2000);
+// }
+
+// timeout();
+
+let counter = 0;
+
+function timeout() {
+    console.log('hi ' + counter++);
+    setTimeout(timeout, 2000);
+}
+
+timeout();
 
 
 
