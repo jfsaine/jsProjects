@@ -565,7 +565,7 @@
 // myArray.unshift('Hi')
 // console.log(myArray);
 
-// JSYT COURSE: Timestamp 2:03:05
+// **************************************************************** JSYT COURSE: Timestamp 2:03:05
 
 
 // let text = "hello world";
@@ -600,14 +600,58 @@
 
 // timeout();
 
-let counter = 0;
+// let counter = 0;
 
-function timeout() {
-    console.log('hi ' + counter++);
-    setTimeout(timeout, 2000);
-}
+// function timeout() {
+//     console.log('hi ' + counter++);
+//     setTimeout(timeout, 2000);
+// }
 
-timeout();
+// timeout();
 
+// function three () {
+//     return function () {
+//         return 'three';
+//     }
+// }
+
+// console.log(three()());
+
+// module-pattern
+
+var counter = (function(){
+
+    let count = 0
+
+    function print(message) {
+        console.log(message + '---' + count);
+    }
+
+    return {
+        get: function() {
+            return count;
+        },
+
+        set: function(value) {
+            count = value;
+        },
+
+        increment: function() {
+            count += 1;
+            print('After increment: ');
+        },
+
+        reset: function() {
+                print('Before reset: ');
+                count = 0;
+                print('After reset: ');
+        }
+    }
+})();
+
+counter.set(7);
+console.log(counter.get());
+
+counter.reset();
 
 
