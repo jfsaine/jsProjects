@@ -619,7 +619,7 @@
 
 // module-pattern
 
-var counter = (function(){
+/* var counter = (function(){
 
     let count = 0
 
@@ -652,6 +652,44 @@ var counter = (function(){
 counter.set(7);
 console.log(counter.get());
 
-counter.reset();
+counter.reset(); */
+
+/* function sayHello(name) {
+    return function(){
+        console.log('howdy ' + name);
+    }
+}
+
+let bob = sayHello('bob');
+let conrad = sayHello('conrad');
+let grant = sayHello('grant');
+
+bob();
+conrad();
+grant(); */
 
 
+/* function first() {
+    return this;
+}
+
+console.log(first() === global);
+
+function second() {
+    'use strict';
+
+    return this;
+}
+
+console.log(second() === global);
+console.log(second() === undefined);
+console.log(second()); */
+
+/* console.log(global);
+ */
+
+let myObject = {
+    value: 'My Object'
+};
+
+global.value = 'Global object';
