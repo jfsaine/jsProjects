@@ -688,8 +688,52 @@ console.log(second()); */
 /* console.log(global);
  */
 
-let myObject = {
+/* let myObject = {
     value: 'My Object'
 };
 
 global.value = 'Global object';
+
+function newFunction() {
+    return this.value;
+}
+
+console.log(newFunction()); */
+
+/* let me = {
+    name: 'JF',
+    age: 42,
+    favNoise: 'bark',
+    whatIsThis: function() {
+        return this;
+    }
+}
+
+console.log(me.whatIsThis()); */
+
+/* let car = {
+    make: 'bmw',
+    model: '330i',
+    year: 2006,
+}
+
+console.log(car.make + ' ' + car.model); */
+
+function printToScreen() {
+    console.log(this.firstName + ' ' + this.lastName);
+}
+
+let customer1 = {
+    firstName: 'Bob',
+    lastName: 'Taylor',
+    print: printToScreen
+}
+
+let customer2 = {
+    firstName: 'Jane',
+    lastName: 'Stewart',
+    print: printToScreen
+}
+
+customer1.print();
+customer2.print();
