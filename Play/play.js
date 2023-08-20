@@ -719,7 +719,7 @@ console.log(me.whatIsThis()); */
 
 console.log(car.make + ' ' + car.model); */
 
-function printToScreen() {
+/* function printToScreen() {
     console.log(this.firstName + ' ' + this.lastName);
 }
 
@@ -736,4 +736,69 @@ let customer2 = {
 }
 
 customer1.print();
-customer2.print();
+customer2.print(); */
+
+/* // Regex
+let pattern = /xyz/;
+console.log(pattern);
+console.log(typeof pattern);
+
+let value = 'This is xyz a test';
+
+//Search + Replace
+console.log(pattern.test(value));
+console.log(value.replace(pattern, 'just'));
+
+console.log(value.match(pattern));
+var match = value.match(pattern);
+console.log(match.index); */
+
+/* // Built-in Native Types 
+let myString = new String('howdy');
+console.log(typeof myString);
+console.log(myString.toString()); */
+
+/* // Constructor Call
+function Car(make, model, year){
+    this.make = make;
+    this.model = model;
+    this.year = year
+}
+
+let car1 = new Car('bmw', '330i', 2006);
+
+console.log(car1); */
+
+/// Learn classes and constructors
+/// Or learn object literals
+
+// CLASSES AND CONSTRUCTORS
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet() {
+        console.log('Hello, ' + this.name);
+    }
+}
+
+const john = new Person('John', 30);
+john.greet();
+
+// OBJECT LITERAL
+const person = {
+    name: 'John',
+    age: '30',
+    greet: function(){
+        console.log('Hello, ' + this.name);
+    }
+}
+
+person.greet();
+
+
+
+
+
