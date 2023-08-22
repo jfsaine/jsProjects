@@ -772,7 +772,7 @@ console.log(car1); */
 /// Learn classes and constructors
 /// Or learn object literals
 
-// CLASSES AND CONSTRUCTORS
+/* // CLASSES AND CONSTRUCTORS
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -796,9 +796,8 @@ const person = {
     }
 }
 
-person.greet();
+person.greet(); */
 
-Timestamp
 
 
 
