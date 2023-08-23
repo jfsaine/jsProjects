@@ -798,6 +798,36 @@ const person = {
 
 person.greet(); */
 
+/* // USING ARROW FUNCTIONS
+// NO ARROW
+let hi = function() {
+    console.log('Hello World')
+}
 
+hi();
 
+// WITH ARROW
+let hey = () => {
+    console.log('Hello World')
+}
 
+hey();
+
+let hello = (name) => {
+    console.log('Howdy ' + name);
+}
+
+hello('Bob');
+
+let hello1 = (name) => {
+    console.log(`Howdy ${name}`);
+}
+
+hello1('Bob');
+ */
+
+/* // DATE OBJECT
+let today = new Date();
+let bob = new Date('December 7,1969 07:01:23');
+let bob = new Date('1969-12-07T07:01:23');
+let bob = new Date(1969, 11, 6) */
