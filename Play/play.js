@@ -787,13 +787,13 @@ class Person {
 const john = new Person('John', 30);
 john.greet();
 
-// OBJECT LITERAL
 const person = {
     name: 'John',
     age: '30',
     greet: function(){
         console.log('Hello, ' + this.name);
     }
+// OBJECT LITERAL
 }
 
 person.greet(); */
@@ -831,3 +831,77 @@ let today = new Date();
 let bob = new Date('December 7,1969 07:01:23');
 let bob = new Date('1969-12-07T07:01:23');
 let bob = new Date(1969, 11, 6) */
+
+/* // ES6 SYNTAX OPTIONS - IMPORTANT
+const square = (number) => {
+    return number * number;
+};
+// versus
+
+const square1 = number => number * number; */
+
+/*  // FIDLING WITH JARED EXAMPLE
+    const Square = (n) => {
+    n** 2; 
+    let x = 4; 
+    console.log("more useless statements inside one function");
+    }; */
+
+/* // CALLBACK
+
+function fetchData(callback) {
+    // Simulating fetching data with a timeout
+    setTimeout(function() {
+        console.log("Data fetched!");
+        callback();
+    }, 2000);
+}
+
+function displayData() {
+    console.log("Displaying data...");
+}
+
+// Fetch data and then display it
+fetchData(displayData); */
+
+/* function isStrictMode() {
+    return this === undefined;
+}
+
+console.log(isStrictMode());  // If this returns true, the function is in strict mode.
+ */
+
+/* const square = number => number * number;
+
+const square = function(number) {
+    return number * number;
+}
+
+console.log(square(8)); */
+
+/* const jobs = [
+    {
+        id: 1,
+        isActive: true
+    },
+    {
+        id: 2, 
+        isActive: true
+    },
+    {
+        id: 3, 
+        isActive: false
+    },
+]; */
+
+const jobs = [
+    { id: 1, isActive: true },
+    { id: 2, isActive: true },
+    { id: 3, isActive: false },
+];
+
+const activeJobs = jobs.filter(function(job) {
+    return job.isActive;
+    });
+
+const activeJobs = jobs.filter(job => job.isActive);
