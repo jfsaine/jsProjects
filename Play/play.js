@@ -911,5 +911,16 @@ let a = 1, b = '1';
 let result = (a == b) ? 'equal' : 'inequal';
 console.log(result); */
 
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    country: 'US'
+};
+
+const { firstName, ...restOfPerson } = person;
+
+console.log(firstName);     // 'John'
+console.log(restOfPerson);  // { lastName: 'Doe', age: 30, country: 'US' }
 
 
