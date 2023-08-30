@@ -923,4 +923,4 @@ const { firstName, ...restOfPerson } = person;
 console.log(firstName);     // 'John'
 console.log(restOfPerson);  // { lastName: 'Doe', age: 30, country: 'US' }
 
-// 
+// New Project
