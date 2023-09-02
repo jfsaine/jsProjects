@@ -1,14 +1,11 @@
-function askUser() {
-    var userInput = prompt("Please enter some input:", "Default value");
-    
-    if (userInput != null) {
-        console.log("User entered: " + userInput);
-        return userInput;
-    } else {
-        console.log("User cancelled or entered nothing.");
-        return null;
-    }
-}
+const readline = require('readline');
 
-// To use the function
-var response = askUser();
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Please enter some input: ', (userInput) => {
+  console.log('You entered:', userInput);
+  rl.close();
+});
