@@ -911,7 +911,7 @@ let a = 1, b = '1';
 let result = (a == b) ? 'equal' : 'inequal';
 console.log(result); */
 
-const person = {
+/* const person = {
     firstName: 'John',
     lastName: 'Doe',
     age: 30,
@@ -924,4 +924,14 @@ console.log(firstName);     // 'John'
 console.log(restOfPerson);  // { lastName: 'Doe', age: 30, country: 'US' }
 
 // New Project
-console.log("hello world");
+console.log("hello world"); */
+
+function greet(name, callback) {
+    console.log('Hello, ' + name);
+    callback();
+}
+
+greet('Alice', function() {
+    console.log('Greeting completed.');
+});
+
