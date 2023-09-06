@@ -43,7 +43,14 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Please enter your name: ', (answer) => {
-  console.log(`Hello, ${answer}!`);
-  rl.close();
+// Example of Callback Hell
+rl.question('Enter First Number: ', (num1) => {
+  rl.question('Enter Second Number: ', (num2) => {
+    console.log(`Number One: ${num1}`);
+    console.log(`Number Two: ${num2}`);
+      rl.question('What would you like to do with this Function: add, sub, div, mult? ', (operation) => {
+        console.log(`Operation: ${operation}`);
+        rl.close();
+      });
+  });
 });
