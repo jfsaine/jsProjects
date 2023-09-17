@@ -80,7 +80,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-// Get user inputs in a linear fashion
+// Get user inputs 
 rl.question('Enter First Number: ', (num1) => {
   rl.question('Enter Second Number: ', (num2) => {
     rl.question('Enter one of the following operations: add, sub, mult, div: ', (operation) => {
