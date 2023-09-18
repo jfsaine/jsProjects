@@ -73,7 +73,7 @@ function calculate(num1, num2, askOperator) {
   
 } */
 
-const readline = require('readline');
+/* const readline = require('readline');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -112,8 +112,59 @@ function calculate(num1, num2, operation) {
     default:
       return 'Error: Invalid operation';
   }
+} */
+
+const { createInterface } = require('readline');
+
+const rl = createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+function askQuestion(query) {
+  return new Promise((resolve) => {
+    rl.question(query, resolve);
+  });
 }
 
+async function main() {
+  try {
+    const num1 = await askQuestion('Enter First Number: ');
+    const num2 = await askQuestion('Enter Second Number: ');
+    const operation = await askQuestion('Enter one of the following operations: add, sub, mult, div: ');
+
+    if (isNaN(num1) || isNaN(num2)) {
+      throw new Error('One or both of your numbers are invalid.');
+    }
+
+    const number1 = parseFloat(num1);
+    const number2 = parseFloat(num2);
+
+    const result = calculate(number1, number2, operation);
+    console.log(`Result: ${result}`);
+  } catch (error) {
+    console.error(`Error: ${error.message}`);
+  } finally {
+    rl.close();
+  }
+}
+
+function calculate(num1, num2, operation) {
+  switch (operation) {
+    case 'add': return num1 + num2;
+    case 'sub': return num1 - num2;
+    case 'mult': return num1 * num2;
+    case 'div':
+      if (num2 === 0) {
+        throw new Error('Division by zero');
+      }
+      return num1 / num2;
+    default:
+      throw new Error('Invalid operation');
+  }
+}
+
+main();
 
 
 
