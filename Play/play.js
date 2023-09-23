@@ -926,6 +926,8 @@ console.log(restOfPerson);  // { lastName: 'Doe', age: 30, country: 'US' }
 // New Project
 console.log("hello world"); */
 
+
+/* // CALLBACK FUNCTION
 function greet(name, callback) {
     console.log('Hello, ' + name);
     callback();
@@ -934,4 +936,43 @@ function greet(name, callback) {
 greet('Alice', function() {
     console.log('Greeting completed.');
 });
+ */
 
+/* // EXERCISE ON CLASS/OBJECT
+class Employee {
+    constructor(name, id, salary){
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+    calculateMonthlyPaycheck(){
+        return this.salary / 12;
+    }
+}
+
+const employee1 = new Employee("James", 2535, 60000);
+const employee2 = new Employee("David", 5757, 55000);
+
+console.log(employee2.calculateMonthlyPaycheck()); */
+
+// ASYNC CRASHCOURSE
+
+let persons = [
+    {
+        "hat": "cap",
+        "shirt": "jersey",
+        "shoes": "cleats"
+    },
+    {
+        "hat": "hatless",
+        "shirt": "shirtless",
+        "shoes": "shoeless"
+    }
+];
+
+for (let i = 0; i < persons.length; i++) {
+    console.log(`Person ${i + 1}`);
+    console.log(`Hat: ${persons[i].hat}`);
+    console.log(`Shirt: ${persons[i].shirt}`);
+    console.log(''); // To add a newline for better readability
+}
