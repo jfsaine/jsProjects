@@ -957,7 +957,7 @@ console.log(employee2.calculateMonthlyPaycheck()); */
 
 // ASYNC CRASHCOURSE
 
-let persons = [
+/* let persons = [
     {
         "hat": "cap",
         "shirt": "jersey",
@@ -975,4 +975,15 @@ for (let i = 0; i < persons.length; i++) {
     console.log(`Hat: ${persons[i].hat}`);
     console.log(`Shirt: ${persons[i].shirt}`);
     console.log(''); // To add a newline for better readability
-}
+} */
+
+let testObj = {
+    entree: "vegan burger",
+    side: "greens",
+    drink: "purified water"
+};
+
+console.log(testObj.entree);
+console.log(testObj.drink);
+
+// 1:52:47
