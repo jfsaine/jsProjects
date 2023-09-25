@@ -977,13 +977,13 @@ for (let i = 0; i < persons.length; i++) {
     console.log(''); // To add a newline for better readability
 } */
 
-let testObj = {
+/* let testObj = {
     entree: "vegan burger",
     side: "greens",
     drink: "purified water"
 };
 
 console.log(testObj.entree);
-console.log(testObj.drink);
+console.log(testObj.drink); */
 
 // 1:52:47
