@@ -986,7 +986,7 @@ for (let i = 0; i < persons.length; i++) {
 console.log(testObj.entree);
 console.log(testObj.drink); */
 
-const testObj = {
+/* const testObj = {
     12: "Namath", 
     16: "Montana",
     19: "Unitas"
@@ -995,6 +995,22 @@ const testObj = {
 let playerNumber = 16;
 let player = testObj[playerNumber];
 
-console.log(player);
+console.log(player); */
+
+const ourDog = {
+    name: "Camper",
+    legs: "4",
+    tails: "2",
+    friends: "All things"
+};
+
+ourDog.name = "Happy Camper"
+
+console.log(ourDog.name);
+
+
+
+
+
 
 // 1:52:47
