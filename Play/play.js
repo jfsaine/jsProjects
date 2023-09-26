@@ -986,4 +986,15 @@ for (let i = 0; i < persons.length; i++) {
 console.log(testObj.entree);
 console.log(testObj.drink); */
 
+const testObj = {
+    12: "Namath", 
+    16: "Montana",
+    19: "Unitas"
+};
+
+let playerNumber = 16;
+let player = testObj[playerNumber];
+
+console.log(player);
+
 // 1:52:47
