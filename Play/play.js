@@ -997,20 +997,74 @@ let player = testObj[playerNumber];
 
 console.log(player); */
 
-const ourDog = {
+/* const ourDog = {
     name: "Camper",
     legs: "4",
-    tails: "2",
+    tails: "1",
     friends: "All things"
 };
 
 ourDog.name = "Happy Camper"
+ourDog.bark = "Woof";
 
-console.log(ourDog.name);
+console.log("Meet:", ourDog.name);
+console.log(ourDog.bark); */
+
+// FREE CODE CAMP EXAMPLE
+/* function phoneticLookup(val) {
+    let result = "";
+
+    let lookup = {
+        alpha: "Adams",
+        bravo: "Boston",
+        charlie: "Chicago",
+        delta: "Denver",
+        echo: "Easy", 
+        foxtrot: "Frank"
+    };  
+
+    result = lookup[val];
+
+    return result;
+}
+
+console.log(phoneticLookup("charlie")); */
 
 
+// GPT4 EXAMPLE 
+/* function phoneticLookup(val) {
+    let lookup = {
+        alpha: "Adams",
+        bravo: "Boston",
+        charlie: "Chicago",
+        delta: "Denver",
+        echo: "Easy", 
+        foxtrot: "Frank"
+    };  
+
+    return lookup[val];
+}
+
+console.log(phoneticLookup("charlie")); */
 
 
+// HGPT EXAMPLE
+const lookup = {
+    alpha: "Adams",
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank",
+  };
 
+const phoneticLookup = (val) => lookup[val];
 
-// 1:52:47
+// Pre ES6:
+/* function phoneticLookup(val) {
+    return lookup[val];
+} */
+  
+console.log(phoneticLookup("delta"));
+
+// 1:57:29
