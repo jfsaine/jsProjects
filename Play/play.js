@@ -1049,7 +1049,7 @@ console.log(phoneticLookup("charlie")); */
 
 
 // HGPT EXAMPLE
-const lookup = {
+/* const lookup = {
     alpha: "Adams",
     bravo: "Boston",
     charlie: "Chicago",
@@ -1061,10 +1061,100 @@ const lookup = {
 const phoneticLookup = (val) => lookup[val];
 
 // Pre ES6:
-/* function phoneticLookup(val) {
-    return lookup[val];
-} */
+// function phoneticLookup(val) {
+//    return lookup[val];
+//} 
   
-console.log(phoneticLookup("delta"));
+console.log(phoneticLookup("delta")); */
 
-// 1:57:29
+/* const myObj = {
+    gift: "Pony",
+    pet: "Dog", 
+    bed: "Wooden"
+}
+
+function checkObj(checkProp) {
+    if (myObj.hasOwnProperty(checkProp)) {
+        return myObj[checkProp];
+    } else {
+        return "Not Found";
+    }
+}
+
+console.log(checkObj("banana")); */
+
+/* const myObj = {
+    gift: "Pony",
+    pet: "Dog", 
+    bed: "Made of wood"
+}
+
+function checkObj(checkProp) {
+    return myObj.hasOwnProperty(checkProp) ? myObj[checkProp] : "Not Found";
+}
+
+console.log(checkObj("gift")); */
+
+/* const myMusic = [
+    {
+        artist: "Billy Joel",
+        title: "Piano Man",
+        releaseYear: 1973,
+        formats: [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        gold: true
+    },
+    {
+        artist: "Beau Carnes",
+        title: "Cereal Man",
+        releaseYear: 2005,
+        formats: [
+            "YT Video"
+        ]
+    }
+]
+
+console.log(myMusic[1].artist);
+console.log(myMusic[1].title); */
+
+/* const storage = {
+    car: {
+        inside: {
+            gloveBox: "maps",
+            passangerSeat: "crumbs"
+        },
+        outside: {
+            trunk: "jack",
+        }
+    }
+};
+
+const gloveBoxContents = storage.car.inside.gloveBox;
+
+console.log(gloveBoxContents); */
+
+const myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]
+    }
+]
+
+console.log(myPlants[1].list[0]);
+
+// 2:03:06
