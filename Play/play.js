@@ -1136,7 +1136,7 @@ const gloveBoxContents = storage.car.inside.gloveBox;
 
 console.log(gloveBoxContents); */
 
-const myPlants = [
+/* const myPlants = [
     {
         type: "flowers",
         list: [
@@ -1155,6 +1155,55 @@ const myPlants = [
     }
 ]
 
-console.log(myPlants[1].list[0]);
+console.log(myPlants[1].list[0]); */
+
+/* const Car = {
+    make: "bmw",
+    model: "330i",
+    year: 2006,
+    getPrice: function() {
+        return 5000;
+    },
+    printDescrip: function() {
+        console.log(this.make + ' ' + this.model);
+    }
+}
+
+Car.printDescrip(); */
+
+/* function first() {
+    return this;
+}
+
+console.log(first() === global); */
+
+/* function second() {
+    'use strict';
+
+    return this;
+}
+
+console.log(second() === global);
+console.log(second() === undefined); */
+
+function fifth() {
+    console.log(this.firstName + ' ' + this.lastName);
+}
+
+let customer1 = {
+    firstName: 'Tommy',
+    lastName: 'P.',
+    print: fifth
+}
+
+let customer2 = {
+    firstName: 'Jared',
+    lastName: 'M.',
+    print: fifth
+}
+
+customer2.print();
+customer1.print();
+
 
 // 2:03:06
