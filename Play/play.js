@@ -1186,7 +1186,7 @@ console.log(first() === global); */
 console.log(second() === global);
 console.log(second() === undefined); */
 
-function fifth() {
+/* function fifth() {
     console.log(this.firstName + ' ' + this.lastName);
 }
 
@@ -1203,7 +1203,7 @@ let customer2 = {
 }
 
 customer2.print();
-customer1.print();
+customer1.print(); */
 
 
 // 2:03:06
