@@ -1205,5 +1205,58 @@ let customer2 = {
 customer2.print();
 customer1.print(); */
 
+// INHERITANCE
+
+/* const me = {
+    talk() {
+        return 'Talking';
+    }
+}
+
+const you = {
+    talk() {
+        return 'Talking';
+    }
+}
+
+console.log(me.talk());
+console.log(you.talk());
+ */
+
+class Person {
+    talk() {
+        return 'Talking';
+    }
+}
+
+Person.prototype.talk = function(){
+    return 'New and improved Talking'
+};
+
+const me = new Person();
+const you = new Person();
+
+console.log(me.talk());
+console.log(you.talk());
+
+class SuperHuman extends Person {
+    fly() {
+        return 'Flyyying';
+    }
+}
+
+const him = new SuperHuman();
+
+console.log(him.fly());
+console.log(him.talk());
+
+/* const dude = {};
+dude.name = "SINAAAA";
+dude.age = 34;
+
+console.log(dude.name);
+console.log(dude.age); */
+
+
 
 // 2:03:06
