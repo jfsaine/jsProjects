@@ -1205,6 +1205,13 @@ let customer2 = {
 customer2.print();
 customer1.print(); */
 
+/* const dude = {};
+dude.name = "SINAAAA";
+dude.age = 34;
+
+console.log(dude.name);
+console.log(dude.age); */
+
 // INHERITANCE
 
 /* const me = {
@@ -1250,13 +1257,5 @@ const him = new SuperHuman();
 console.log(him.fly());
 console.log(him.talk());
 
-/* const dude = {};
-dude.name = "SINAAAA";
-dude.age = 34;
-
-console.log(dude.name);
-console.log(dude.age); */
-
-
-
-// 2:03:06
+//.
+// JS FCC: 2:03:06
