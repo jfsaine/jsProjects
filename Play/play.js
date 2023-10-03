@@ -1230,7 +1230,7 @@ console.log(me.talk());
 console.log(you.talk());
  */
 
-class Person {
+/* class Person {
     talk() {
         return 'Talking';
     }
@@ -1255,7 +1255,37 @@ class SuperHuman extends Person {
 const him = new SuperHuman();
 
 console.log(him.fly());
-console.log(him.talk());
+console.log(him.talk()); */
 
-//.
+// THIS IN AN OBJECT METHOD
+
+/* const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    getFullName: function() {
+      return `${this.firstName} ${this.lastName}`;
+    },
+    getAge: function() {
+      return this.age;
+    }
+  };
+  
+  console.log(person.getFullName()); // Output: "John Doe"
+  console.log(person.getAge()); // Output: 30 */
+
+  // THIS IN A CONSTRUCTOR
+
+  function Car(make, model) {
+    this.make = make;
+    this.model = model;
+    this.getDescription = function() {
+      return `${this.make} ${this.model}`;
+    };
+  }
+  
+  const myCar = new Car('Toyota', 'Camry');
+  console.log(myCar.getDescription()); // Output: "Toyota Camry"  
+  
+
 // JS FCC: 2:03:06
