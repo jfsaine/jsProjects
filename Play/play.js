@@ -1303,7 +1303,7 @@ console.log(him.talk()); */
   console.log(person.getFullName()); // Output: "John Doe"
   console.log(person.getAge()); // Output: 30 */
 
-  // Parent Class
+  // USING EXTENDS AND SUPER TO SET-UP INHERITENCE IN AN ES6 CLASS FORMAT 
 
   class Animal {
     constructor(name, species) {
