@@ -1274,9 +1274,9 @@ console.log(him.talk()); */
   console.log(person.getFullName()); // Output: "John Doe"
   console.log(person.getAge()); // Output: 30 */
 
-  // THIS IN A CONSTRUCTOR
+// THIS IN A CONSTRUCTOR
 
-  function Car(make, model) {
+/*   function Car(make, model) {
     this.make = make;
     this.model = model;
     this.getDescription = function() {
@@ -1285,7 +1285,25 @@ console.log(him.talk()); */
   }
   
   const myCar = new Car('Toyota', 'Camry');
-  console.log(myCar.getDescription()); // Output: "Toyota Camry"  
+  console.log(myCar.getDescription()); // Output: "Toyota Camry"  */ 
+
+// THIS IN AN OBJECT
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    getFullName: function() {
+      return `${this.firstName} ${this.lastName}`;
+    },
+    getAge: function() {
+      return this.age;
+    }
+  };
   
+  console.log(person.getFullName()); // Output: "John Doe"
+  console.log(person.getAge()); // Output: 30
+  
+
 
 // JS FCC: 2:03:06
