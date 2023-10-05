@@ -1274,8 +1274,7 @@ console.log(him.talk()); */
   console.log(person.getFullName()); // Output: "John Doe"
   console.log(person.getAge()); // Output: 30 */
 
-// THIS IN A CONSTRUCTOR
-
+// THIS IN A CONSTRUCTOR 
 /*   function Car(make, model) {
     this.make = make;
     this.model = model;
@@ -1289,7 +1288,7 @@ console.log(him.talk()); */
 
 // THIS IN AN OBJECT
 
-const person = {
+/* const person = {
     firstName: "John",
     lastName: "Doe",
     age: 30,
@@ -1302,7 +1301,37 @@ const person = {
   };
   
   console.log(person.getFullName()); // Output: "John Doe"
-  console.log(person.getAge()); // Output: 30
+  console.log(person.getAge()); // Output: 30 */
+
+  // Parent Class
+
+  class Animal {
+    constructor(name, species) {
+      this.name = name;
+      this.species = species;
+    }
+  
+    speak() {
+      return `Hi, I'm a ${this.species} and my name is ${this.name}`;
+    }
+  }
+  
+  // Child Class
+  class Dog extends Animal {
+    constructor(name, breed) {
+      super(name, 'dog');  // Call parent constructor with super
+      this.breed = breed;
+    }
+  
+    woof() {
+      return 'Woof! Woof!';
+    }
+  }
+  
+  const myDog = new Dog('Max', 'Labrador');
+  console.log(myDog.speak());  // Output: "Hi, I'm a dog and my name is Max"
+  console.log(myDog.woof());   // Output: "Woof! Woof!"
+  
   
 
 
