@@ -1332,5 +1332,6 @@ console.log(him.talk()); */
   console.log(myDog.speak());  // Output: "Hi, I'm a dog and my name is Max"
   console.log(myDog.woof());   // Output: "Woof! Woof!"
   
-  
+
+// TEST
 // JS FCC: 2:03:06
