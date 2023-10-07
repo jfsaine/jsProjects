@@ -1305,7 +1305,7 @@ console.log(him.talk()); */
 
   // USING EXTENDS AND SUPER TO SET-UP INHERITENCE IN AN ES6 CLASS FORMAT 
 
-  class Animal {
+/*   class Animal {
     constructor(name, species) {
       this.name = name;
       this.species = species;
@@ -1330,8 +1330,27 @@ console.log(him.talk()); */
   
   const myDog = new Dog('Max', 'Labrador');
   console.log(myDog.speak());  // Output: "Hi, I'm a dog and my name is Max"
-  console.log(myDog.woof());   // Output: "Woof! Woof!"
+  console.log(myDog.woof());   // Output: "Woof! Woof!" */
   
+// THIS 
 
-// TEST
+function talk() {
+    return `I am ${this.name}`
+}
+
+const me = {
+    name: 'John',
+    talk
+}
+
+const you = {
+    name: 'Jack',
+    talk
+}
+
+console.log(me.talk());
+console.log(you.talk());
+
+
+
 // JS FCC: 2:03:06
