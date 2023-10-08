@@ -1334,7 +1334,7 @@ console.log(him.talk()); */
   
 // THIS 
 
-function talk() {
+/* function talk() {
     return `I am ${this.name}`
 }
 
@@ -1349,7 +1349,18 @@ const you = {
 }
 
 console.log(me.talk());
-console.log(you.talk());
+console.log(you.talk()); */
+
+const weirdArray = [
+    "apple",
+    "banana",
+    function() {
+      return `The third element is a function and it can access the array itself: ${this[0]}, ${this[1]}`;
+    }
+  ];
+  
+  console.log(weirdArray[2].call(weirdArray)); 
+  
 
 
 
