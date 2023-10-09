@@ -1351,7 +1351,7 @@ const you = {
 console.log(me.talk());
 console.log(you.talk()); */
 
-const weirdArray = [
+/* const weirdArray = [
     "apple",
     "banana",
     function() {
@@ -1359,9 +1359,21 @@ const weirdArray = [
     }
   ];
   
-  console.log(weirdArray[2].call(weirdArray)); 
-  
+  console.log(weirdArray[2].call(weirdArray));  */
 
+  const weirdArray = [
+    "apple",
+    "banana",
+    "carrot",
+    () => {
+      const [firstElement, secondElement] = weirdArray;
+      return `The third element is a function and it can access the array itself: ${firstElement}, ${secondElement}`;
+    }
+  ];
+  
+  // Execute the function
+  console.log(weirdArray[3]());
+  
 
 
 // JS FCC: 2:03:06
