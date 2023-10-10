@@ -1361,7 +1361,7 @@ console.log(you.talk()); */
   
   console.log(weirdArray[2].call(weirdArray));  */
 
-  const weirdArray = [
+/*   const weirdArray = [
     "apple",
     "banana",
     "carrot",
@@ -1372,7 +1372,7 @@ console.log(you.talk()); */
   ];
   
   // Execute the function
-  console.log(weirdArray[3]());
+  console.log(weirdArray[3]()); */
   
 
 
