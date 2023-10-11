@@ -1373,7 +1373,54 @@ console.log(you.talk()); */
   
   // Execute the function
   console.log(weirdArray[3]()); */
-  
 
+// OBJECT WORK
+
+let collection = {
+    2548: {
+        album: "Slippery when wet",
+        artist: "Bon Jovi",
+        tracks: [
+            "Let it Rock",
+            "You Give Love a Bad Name"
+        ]
+    },
+    2549: {
+        album: "1999",
+        artist: "Prince",
+        tracks: [
+            "1999",
+            "Little Red Corvette"
+        ]
+    },
+    2550: {
+        artist: "Robert Palmer",
+        tracks: []
+    },
+    2551: {
+         album: "ABBA Gold"   
+    }
+};
+
+//Keep a copy of collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Make changes
+function updateRecords(id, prop, value){
+    if (value === "") {
+        delete collection[id][prop];
+    } else if (prop === "tracks") {
+        collection[id][prop] = collection[id][prop] || [];
+        collection[id][prop].push(value);
+    } else {
+        collection[id][prop] = value;
+    }
+
+    return collection;
+}
+
+// Making changes
+updateRecords(2551, "tracks", "ABBA Why?");
+console.log(updateRecords(2551, "artist", "ABBA"));
 
 // JS FCC: 2:03:06
