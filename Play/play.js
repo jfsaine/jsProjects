@@ -1374,7 +1374,7 @@ console.log(you.talk()); */
   // Execute the function
   console.log(weirdArray[3]()); */
 
-// OBJECT WORK
+/* // OBJECT WORK
 
 let collection = {
     2548: {
@@ -1421,6 +1421,28 @@ function updateRecords(id, prop, value){
 
 // Making changes
 updateRecords(2551, "tracks", "ABBA Why?");
-console.log(updateRecords(2551, "artist", "ABBA"));
+console.log(updateRecords(2551, "artist", "ABBA")); */
 
-// JS FCC: 2:10:17
+/* //FOR LOOP 
+
+let myArray = [];
+
+for (let i = 0; i < 5; i++){
+    myArray.push(i);
+}
+
+console.log(myArray); */
+
+//SAME, BUT WHILE LOOP
+
+let myArray = [];
+
+let i = 0;
+while (i < 5){
+    myArray.push(i);
+    i++;
+}
+
+console.log(myArray);
+
+// JS FCC: 2:11:26
