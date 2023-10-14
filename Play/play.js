@@ -1435,7 +1435,7 @@ console.log(myArray); */
 
 //SAME, BUT WHILE LOOP
 
-let myArray = [];
+/* let myArray = [];
 
 let i = 0;
 while (i < 5){
@@ -1443,6 +1443,6 @@ while (i < 5){
     i++;
 }
 
-console.log(myArray);
+console.log(myArray); */
 
 // JS FCC: 2:11:26
