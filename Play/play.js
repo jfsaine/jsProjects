@@ -1445,4 +1445,8 @@ while (i < 5){
 
 console.log(myArray); */
 
+const factorial = n => [...Array(n).keys()].map(x => x + 1).reduce((acc, val) => acc * val, 1);
+console.log(factorial(5));  // Output will be 120
+
+
 // JS FCC: 2:11:26
