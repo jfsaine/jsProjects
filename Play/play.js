@@ -1448,11 +1448,24 @@ console.log(myArray); */
 /* const factorial = n => [...Array(n).keys()].map(x => x + 1).reduce((acc, val) => acc * val, 1);
 console.log(factorial(5));  // Output will be 120 */
 
-function one() {
+/* function one() {
     return this
 }
 
-console.log(one());
+console.log(one()); */
 
+/* function myFunction() {
+    console.log(this); // this will be the window object in a browser
+  }
+  myFunction(); */
+
+class Employee {
+    constructor(name, id, salary){
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+
+console.log(this.name);
 
 // JS FCC: 2:11:26
