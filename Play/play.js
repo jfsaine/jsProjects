@@ -1459,13 +1459,13 @@ console.log(one()); */
   }
   myFunction(); */
 
-class Employee {
+/* class Employee {
     constructor(name, id, salary){
         this.name = name;
         this.id = id;
         this.salary = salary;
     }
 
-console.log(this.name);
+console.log(this.name); */
 
 // JS FCC: 2:11:26
