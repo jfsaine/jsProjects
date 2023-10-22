@@ -1468,4 +1468,8 @@ console.log(one()); */
 
 console.log(this.name); */
 
+console.log("5" + 1); // Output: "51"
+console.log("5" - 1); // Output: 4
+
+
 // JS FCC: 2:11:26
