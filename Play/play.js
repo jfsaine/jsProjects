@@ -1468,8 +1468,12 @@ console.log(one()); */
 
 console.log(this.name); */
 
-console.log("5" + 1); // Output: "51"
-console.log("5" - 1); // Output: 4
+/* console.log("5" + 1); // Output: "51"
+console.log("5" - 1); // Output: 4 */
+
+const falsyValues = [0, "", null, undefined, NaN, false];
+falsyValues.forEach(val => console.log(`${val} is falsy: ${!val}`));
+
 
 
 // JS FCC: 2:11:26
