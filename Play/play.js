@@ -1471,8 +1471,8 @@ console.log(this.name); */
 /* console.log("5" + 1); // Output: "51"
 console.log("5" - 1); // Output: 4 */
 
-const falsyValues = [0, "", null, undefined, NaN, false];
-falsyValues.forEach(val => console.log(`${val} is falsy: ${!val}`));
+/* const falsyValues = [0, "", null, undefined, NaN, false];
+falsyValues.forEach(val => console.log(`${val} is falsy: ${!val}`)); */
 
 
 
