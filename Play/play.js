@@ -1474,6 +1474,12 @@ console.log("5" - 1); // Output: 4 */
 /* const falsyValues = [0, "", null, undefined, NaN, false];
 falsyValues.forEach(val => console.log(`${val} is falsy: ${!val}`)); */
 
+const weirdSum = [] + {};
+console.log(weirdSum);  
+
+
+
+
 
 
 // JS FCC: 2:11:26
