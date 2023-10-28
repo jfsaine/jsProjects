@@ -1477,8 +1477,11 @@ falsyValues.forEach(val => console.log(`${val} is falsy: ${!val}`)); */
 /* const weirdSum = [] + {};
 console.log(weirdSum);   */
 
-const anotherWeirdSum = {} + [];
-console.log(anotherWeirdSum);  // Output: 0
+/* const anotherWeirdSum = {} + [];
+console.log(anotherWeirdSum);  // Output: 0 */
+
+console.log(typeof NaN);  // Output: "number"
+
 
 
 
