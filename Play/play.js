@@ -1499,8 +1499,13 @@ console.log(anotherWeirdSum);  // Output: 0 */
   const randomPassword = generateRandomPassword(passwordLength);
   console.log("Random Password:", randomPassword); */
   
-  console.log(0.1 + 0.2 === 0.3); 
-  console.log(0.1 + 0.2); 
+/*   console.log(0.1 + 0.2 === 0.3); 
+  console.log(0.1 + 0.2);  */
+
+  console.log([10, 5, 1, 3].sort()); // Outputs: [1, 10, 3, 5]
+  console.log([10, 5, 1, 3].sort((a, b) => a - b)); // Outputs: [1, 3, 5, 10]
+
+
   
 
 
