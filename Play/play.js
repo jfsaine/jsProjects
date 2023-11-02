@@ -1483,7 +1483,7 @@ console.log(anotherWeirdSum);  // Output: 0 */
 /* console.log(typeof NaN);  // Output: "number"
  */
 
-function generateRandomPassword(length) {
+/* function generateRandomPassword(length) {
     const charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+[]{}|;:,.<>?";
     let password = "";
   
@@ -1497,9 +1497,11 @@ function generateRandomPassword(length) {
   
   const passwordLength = 12; // You can change the length as desired
   const randomPassword = generateRandomPassword(passwordLength);
-  console.log("Random Password:", randomPassword);
+  console.log("Random Password:", randomPassword); */
   
-
+  console.log(0.1 + 0.2 === 0.3); 
+  console.log(0.1 + 0.2); 
+  
 
 
 
