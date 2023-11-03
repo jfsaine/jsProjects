@@ -12,6 +12,7 @@ let transporter = nodemailer.createTransport({
     },
   });
 
+
 // Setup email data with unicode symbols
 let mailOptions = {
   from: '"Example Team" <from@example.com>', // sender address
@@ -29,3 +30,4 @@ transporter.sendMail(mailOptions, (error, info) => {
   console.log('Message sent: %s', info.messageId);
 });
 
+// nt
