@@ -1502,10 +1502,11 @@ console.log(anotherWeirdSum);  // Output: 0 */
 /*   console.log(0.1 + 0.2 === 0.3); 
   console.log(0.1 + 0.2);  */
 
-  console.log([10, 5, 1, 3].sort()); // Outputs: [1, 10, 3, 5]
-  console.log([10, 5, 1, 3].sort((a, b) => a - b)); // Outputs: [1, 3, 5, 10]
+/*   console.log([10, 5, 1, 3].sort()); // Outputs: [1, 10, 3, 5]
+  console.log([10, 5, 1, 3].sort((a, b) => a - b)); // Outputs: [1, 3, 5, 10] */
 
-
+  console.log((10.5 | 0) === 10.5); // false
+  console.log((10 | 0) === 10); // true
   
 
 
