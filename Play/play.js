@@ -1508,13 +1508,81 @@ console.log(anotherWeirdSum);  // Output: 0 */
 /*   console.log((10.5 | 0) === 10.5); // false
   console.log((10 | 0) === 10); // true */
 
-  for (let i = 0, text = ""; i < 5; text += i++)
+/*   for (let i = 0, text = ""; i < 5; text += i++)
   {
     console.log(text)
-  }
+  } */
   
+/* let ourArray = []; 
 
+for (let i = 0; i < 5; i++) {
+    ourArray.push(i);
+}
 
+let myArray = [];
 
+for (let i = 1; i < 5; i++) {
+    myArray.push(i);
+}
+
+console.log(myArray);
+console.log(ourArray); */
+
+/* let ourArray = [];
+
+for (let i = 0; i < 10; i += 2) {
+    ourArray.push(i);
+}
+
+console.log(ourArray);
+
+let myArray = [];
+
+for (let i = 1; i < 10; i += 2) {
+    myArray.push(i);
+}
+
+console.log(myArray); */
+
+/* let ourArray = [];
+
+for (let i = 10; i > 0; i -= 2) {
+    ourArray.push(i);
+}
+
+console.log(ourArray);
+
+let myArray = [];
+
+for (let i = 9; i > 0; i -=2) {
+    myArray.push(i);
+}
+
+console.log(myArray); */
+
+/* let ourArr = [ 9, 10, 11, 12]; 
+let ourTotal = 0;
+
+for (let i = 0; i < ourArr.length; i++) {
+    ourTotal += ourArr[i]; 
+}
+
+console.log(ourTotal); */
+
+function multiplyAll(arr) {
+    let product = 1;
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+
+    return product;
+}
+
+let resultOfMultiplication = multiplyAll([[1,2], [3,4], [5,6,7]]);
+
+console.log(resultOfMultiplication);
 
 // JS FCC: 2:11:26
