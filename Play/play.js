@@ -1505,8 +1505,13 @@ console.log(anotherWeirdSum);  // Output: 0 */
 /*   console.log([10, 5, 1, 3].sort()); // Outputs: [1, 10, 3, 5]
   console.log([10, 5, 1, 3].sort((a, b) => a - b)); // Outputs: [1, 3, 5, 10] */
 
-  console.log((10.5 | 0) === 10.5); // false
-  console.log((10 | 0) === 10); // true
+/*   console.log((10.5 | 0) === 10.5); // false
+  console.log((10 | 0) === 10); // true */
+
+  for (let i = 0, text = ""; i < 5; text += i++)
+  {
+    console.log(text)
+  }
   
 
 
