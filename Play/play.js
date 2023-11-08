@@ -1585,4 +1585,14 @@ let resultOfMultiplication = multiplyAll([[1,2], [3,4], [5,6,7]]);
 
 console.log(resultOfMultiplication); */
 
+let myArray = [];
+let i = 10;
+
+while (i < 5) {
+    myArray.push(i);
+    i++;
+}
+
+console.log(i, myArray);
+
 // JS FCC: 2:11:26
