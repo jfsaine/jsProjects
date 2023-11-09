@@ -1585,14 +1585,76 @@ let resultOfMultiplication = multiplyAll([[1,2], [3,4], [5,6,7]]);
 
 console.log(resultOfMultiplication); */
 
-let myArray = [];
+/* let myArray = [];
 let i = 10;
 
-while (i < 5) {
+do {
     myArray.push(i);
     i++;
+} while (i < 5)
+
+console.log(i, myArray); */
+
+/* let contacts = [
+    {
+        firstName: "Akira",
+        lastName: "Laine",
+        number:"05644505050",
+        likes: ["things", "otherthings"]
+    }
+]
+
+function lookUpProfile(name, prop) {
+    for (let i = 0; i < contacts.length; i++) {
+        if(contacts[i].firstName === name) {
+            return contacts[i][prop] || "No such property";
+        }
+    }
+    return "No such contact";
 }
 
-console.log(i, myArray);
+let data = lookUpProfile("Akira", "number");
 
-// JS FCC: 2:11:26
+console.log(data); */
+
+/* function randomFraction() {
+
+    return Math.random();
+}
+
+console.log(randomFraction()); */
+
+
+/* function randomWholeNum() {
+
+    return Math.floor(Math.random() * 10);
+}
+
+console.log(randomWholeNum()); */
+
+/* console.log(Array(3).join("ha" + '!'));
+ */
+
+/* function ourRandomRange(ourMin, ourMax) {
+    return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
+}
+
+ourRandomRange(1, 9);
+
+function randomRange(myMin, myMax) {
+
+    return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
+
+let myRandom = randomRange(5, 15);
+
+console.log(myRandom); */
+
+function convertToInteger(str) {
+    return parseInt(str, 2);
+}
+
+convertToInteger("10011");
+
+
+// JS FCC: 2:33:29
