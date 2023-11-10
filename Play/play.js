@@ -1650,11 +1650,29 @@ let myRandom = randomRange(5, 15);
 
 console.log(myRandom); */
 
-function convertToInteger(str) {
+/* function convertToInteger(str) {
     return parseInt(str, 2);
 }
 
-convertToInteger("10011");
+convertToInteger("10011"); */
 
+/* console.log([] + []); // It's an empty string!
+console.log([] + {}); // It's "[object Object]"!
+console.log({} + []); // It's 0 in a browser console, but Node.js might say "[object Object]"! */
 
-// JS FCC: 2:33:29
+/* const numbers = [1, 2, 3];
+console.log(Math.max(...numbers));  */
+
+/* function checkEqual(a, b) {
+    return a === b ? true: false;
+}
+
+console.log(checkEqual(1, 2)); */
+
+function checkSign(num) {
+    return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
+}
+
+checkSign(-3);
+
+// JS FCC: 2:37:00
