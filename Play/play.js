@@ -1669,10 +1669,50 @@ console.log(Math.max(...numbers));  */
 
 console.log(checkEqual(1, 2)); */
 
-function checkSign(num) {
+/* function checkSign(num) {
     return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
 }
 
-checkSign(-3);
+checkSign(-3); */
 
-// JS FCC: 2:37:00
+/* function checkScope() {
+    "use strict";
+        let i = "function scope";
+        if (true) {
+            i = "block scope";
+            console.log("Block scope i is: ", i);
+        }
+        console.log("Function scope i is: ", i);
+        return i;
+}
+
+checkScope(); */
+
+/* function printManyTimes(str) {
+    "use strict";
+
+    const SENTENCE = str + " is cool!";
+
+    SENTENCE = str + " is amazing!"
+
+    for(let i = 0; i < str.length; i+=2) {
+        console.log(SENTENCE);
+    }
+}
+
+printManyTimes("John Blazini"); */
+
+const s = [5, 7, 2];
+function editInPlace() {
+    "use strict"
+
+    s[0] = 2;
+    s[1] = 5;
+    s[2] = 7; 
+}
+
+editInPlace();
+
+console.log(s);
+
+// JS FCC: 2:47:17
