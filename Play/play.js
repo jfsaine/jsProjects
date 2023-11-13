@@ -1702,7 +1702,7 @@ checkScope(); */
 
 printManyTimes("John Blazini"); */
 
-const s = [5, 7, 2];
+/* const s = [5, 7, 2];
 function editInPlace() {
     "use strict"
 
@@ -1713,6 +1713,10 @@ function editInPlace() {
 
 editInPlace();
 
-console.log(s);
+console.log(s); */
+
+var obj = {};
+obj[{obj: obj}] = obj;
+console.log(JSON.stringify(obj));
 
 // JS FCC: 2:47:17
