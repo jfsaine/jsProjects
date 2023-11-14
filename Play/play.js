@@ -1715,8 +1715,10 @@ editInPlace();
 
 console.log(s); */
 
-var obj = {};
+/* var obj = {};
 obj[{obj: obj}] = obj;
-console.log(JSON.stringify(obj));
+console.log(JSON.stringify(obj)); */
+
+
 
 // JS FCC: 2:47:17
