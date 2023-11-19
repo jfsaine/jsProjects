@@ -1728,16 +1728,30 @@ console.log(JSON.stringify(obj)); */
  */
 
 // ARROW FUNCTION NEXT EXAMPLE
-let myConcat = function(arr1, arr2) {
+/* let myConcat = function(arr1, arr2) {
     return arr1.concat(arr2);
 }
 
-console.log(myConcat([1, 2], [3, 4, 5]));
+console.log(myConcat([1, 2], [3, 4, 5])); */
 
 
-let myConcat = (arr1, arr2) => arr1.concat(arr2);
+/* let myConcat = (arr1, arr2) => arr1.concat(arr2);
 
-console.log(myConcat([1, 2], [3, 4, 5]));
+console.log(myConcat([1, 2], [3, 4, 5])); */
 
+/* const magicArray = ['Houdini', 'Copperfield', 'Blaine'];
+magicArray.length = 6;
+
+console.log('Magic Array: ', magicArray); */
+
+const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+
+const squareList = (arr) => {
+    const squaredIntegers = arr;
+    return squaredIntegers;
+}
+
+const squaredIntegers = squareLists(realNumberArray);
+console.log(squaredIntegers);
 
 // JS FCC: 2:49:27
