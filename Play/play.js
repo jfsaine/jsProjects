@@ -1744,14 +1744,14 @@ magicArray.length = 6;
 
 console.log('Magic Array: ', magicArray); */
 
-const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 8.34, -2];
 
 const squareList = (arr) => {
-    const squaredIntegers = arr;
+    const squaredIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x);
     return squaredIntegers;
-}
+};
 
-const squaredIntegers = squareLists(realNumberArray);
+const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers);
 
 // JS FCC: 2:49:27
