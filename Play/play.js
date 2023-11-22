@@ -1744,7 +1744,7 @@ magicArray.length = 6;
 
 console.log('Magic Array: ', magicArray); */
 
-const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 8.34, -2];
+/* const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 8.34, -2];
 
 const squareList = (arr) => {
     const squaredIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x);
@@ -1752,6 +1752,28 @@ const squareList = (arr) => {
 };
 
 const squaredIntegers = squareList(realNumberArray);
-console.log(squaredIntegers);
+console.log(squaredIntegers); */
 
-// JS FCC: 2:49:27
+/* const zeroHero = 0.1 + 0.2 == 0.3;
+console.log('Is 0.1 + 0.2 equal to 0.3?', zeroHero ? 'Yes' : 'No'); */
+
+/* const increment = (function() {
+    return function increment(number, value) {
+        return number + value;
+    };
+
+})();
+
+console.log(increment(5, 2));
+console.log(increment(5)); */
+
+const sum = (function() {
+    return function sum(x, y, z) {
+        const args = [x, y, z];
+        return args.reduce((a, b) => a + b, 0);
+    };
+})();
+
+console.log(sum(1, 2, 3));
+
+// JS FCC: 2:54:50
