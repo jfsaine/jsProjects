@@ -1767,13 +1767,13 @@ console.log('Is 0.1 + 0.2 equal to 0.3?', zeroHero ? 'Yes' : 'No'); */
 console.log(increment(5, 2));
 console.log(increment(5)); */
 
-const sum = (function() {
+/* const sum = (function() {
     return function sum(x, y, z) {
         const args = [x, y, z];
         return args.reduce((a, b) => a + b, 0);
     };
 })();
 
-console.log(sum(1, 2, 3));
+console.log(sum(1, 2, 3)); */
 
 // JS FCC: 2:54:50
