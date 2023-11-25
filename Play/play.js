@@ -1776,4 +1776,6 @@ console.log(increment(5)); */
 
 console.log(sum(1, 2, 3)); */
 
+console.log([10, 20] + [30, 40]);
+
 // JS FCC: 2:54:50
