@@ -1777,12 +1777,16 @@ console.log(increment(5)); */
 console.log(sum(1, 2, 3)); */
 
 /* console.log([10, 20] + [30, 40]); */
-
+/* 
 function func() {
     return func.flag = !func.flag;
   }
   func.flag = false;
   console.log(func()); 
   console.log(func()); 
-  console.log(func()); 
+  console.log(func());  */
+
+const str = "Hello";
+console.log(new str.constructor("World!"));
+
 // JS FCC: 2:54:50
