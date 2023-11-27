@@ -1786,7 +1786,7 @@ function func() {
   console.log(func()); 
   console.log(func());  */
 
-const str = "Hello";
-console.log(new str.constructor("World!"));
+/* const str = "Hello";
+console.log(new str.constructor("World!")); */
 
 // JS FCC: 2:54:50
