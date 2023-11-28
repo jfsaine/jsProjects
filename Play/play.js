@@ -1789,4 +1789,10 @@ function func() {
 /* const str = "Hello";
 console.log(new str.constructor("World!")); */
 
+const toBoolean = value => !!value;
+console.log(toBoolean(0)); // false
+console.log(toBoolean(1)); // true
+console.log(toBoolean("")); // false
+console.log(toBoolean("Hello")); // true
+
 // JS FCC: 2:54:50
