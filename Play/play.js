@@ -1799,5 +1799,7 @@ console.log(toBoolean("Hello")); // true */
 console.log(Array(3 + 4));   // [ <7 empty items> ]
 console.log(Array(3, 4));    // [3, 4] */
 
+Test
+
 
 // JS FCC: 2:54:50
