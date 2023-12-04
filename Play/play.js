@@ -1799,5 +1799,7 @@ console.log(toBoolean("Hello")); // true */
 console.log(Array(3 + 4));   // [ <7 empty items> ]
 console.log(Array(3, 4));    // [3, 4] */
 
+console.log(parseInt('123abc'));  // 123
+console.log(parseInt('abc123'));  // NaN
 
 // JS FCC: 2:54:50
