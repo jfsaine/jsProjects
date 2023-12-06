@@ -1802,7 +1802,7 @@ console.log(Array(3, 4));    // [3, 4] */
 /* console.log(parseInt('123abc'));  // 123
 console.log(parseInt('abc123'));  // NaN */
 
-console.log(0.0000000000000001);  // 1e-16
-console.log(0.00000000000000001); // 0
+/* console.log(0.0000000000000001);  // 1e-16
+console.log(0.00000000000000001); // 0 */
 
 // JS FCC: 2:54:50
