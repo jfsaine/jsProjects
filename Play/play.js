@@ -1805,9 +1805,9 @@ console.log(parseInt('abc123'));  // NaN */
 /* console.log(0.0000000000000001);  // 1e-16
 console.log(0.00000000000000001); // 0 */
 
-console.log([] + []);          // ""
+/* console.log([] + []);          // ""
 console.log([] + {});          // "[object Object]"
 console.log({} + []);          // "[object Object]"
-console.log({} + {});          // "[object Object][object Object]"
+console.log({} + {});          // "[object Object][object Object]" */
 
 // JS FCC: 2:54:50
