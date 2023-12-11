@@ -1810,9 +1810,12 @@ console.log([] + {});          // "[object Object]"
 console.log({} + []);          // "[object Object]"
 console.log({} + {});          // "[object Object][object Object]" */
 
-console.log(Array(3));       // [ <3 empty items> ]
+/* console.log(Array(3));       // [ <3 empty items> ]
 console.log(Array(3 + 4));   // [ <7 empty items> ]
-console.log(Array(3, 4));    // [3, 4]
+console.log(Array(3, 4));    // [3, 4] */
+
+console.log([] == []);   // false
+console.log([] == ![]);  // true
 
 
 // JS FCC: 2:54:50
