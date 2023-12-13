@@ -1817,8 +1817,12 @@ console.log(Array(3, 4));    // [3, 4] */
 /* console.log([] == []);   // false
 console.log([] == ![]);  // true */
 
-console.log(0.1 + 0.2);                  // 0.30000000000000004
+/* console.log(0.1 + 0.2);                  // 0.30000000000000004
 console.log((0.1 + 0.2) == 0.3);         // false
-console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON);  // true
+console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON);  // true */
+
+console.log(typeof NaN);       // "number"
+console.log(typeof null);      // "object"
+console.log(typeof (() => {})); // "function"
 
 // JS FCC: 2:54:50
