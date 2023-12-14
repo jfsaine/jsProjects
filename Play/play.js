@@ -1821,8 +1821,11 @@ console.log([] == ![]);  // true */
 console.log((0.1 + 0.2) == 0.3);         // false
 console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON);  // true */
 
-console.log(typeof NaN);       // "number"
+/* console.log(typeof NaN);       // "number"
 console.log(typeof null);      // "object"
-console.log(typeof (() => {})); // "function"
+console.log(typeof (() => {})); // "function" */
+
+console.log(null == undefined);  // true
+console.log(null === undefined); // false
 
 // JS FCC: 2:54:50
