@@ -1825,7 +1825,10 @@ console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON);  // true */
 console.log(typeof null);      // "object"
 console.log(typeof (() => {})); // "function" */
 
-console.log(null == undefined);  // true
-console.log(null === undefined); // false
+/* console.log(null == undefined);  // true
+console.log(null === undefined); // false */
+
+console.log(-0 === +0);           // true
+console.log(Object.is(-0, +0));   // false
 
 // JS FCC: 2:54:50
