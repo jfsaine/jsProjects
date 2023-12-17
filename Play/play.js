@@ -1828,7 +1828,7 @@ console.log(typeof (() => {})); // "function" */
 /* console.log(null == undefined);  // true
 console.log(null === undefined); // false */
 
-console.log(-0 === +0);           // true
-console.log(Object.is(-0, +0));   // false
+/* console.log(-0 === +0);           // true
+console.log(Object.is(-0, +0));   // false */
 
 // JS FCC: 2:54:50
