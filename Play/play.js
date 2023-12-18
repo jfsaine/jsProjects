@@ -1831,4 +1831,8 @@ console.log(null === undefined); // false */
 /* console.log(-0 === +0);           // true
 console.log(Object.is(-0, +0));   // false */
 
+let x = 0;
+console.log(x++); // 0
+console.log(++x); // 2
+
 // JS FCC: 2:54:50
