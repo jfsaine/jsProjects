@@ -1831,8 +1831,16 @@ console.log(null === undefined); // false */
 /* console.log(-0 === +0);           // true
 console.log(Object.is(-0, +0));   // false */
 
-let x = 0;
+/* let x = 0;
 console.log(x++); // 0
-console.log(++x); // 2
+console.log(++x); // 2 */
+
+function sum(a, b, c) {
+    return a + b + c;
+}
+
+const numbers = [1, 2, 3];
+console.log(sum(...numbers)); // Equivalent to sum(1, 2, 3)
+
 
 // JS FCC: 2:54:50
